@@ -58,22 +58,22 @@ function update() {
 
 function checkCollisions(item) {
   // TODO: detect collision with all walls and make pacman bounce
-  if (item.position.x > document.body.clientWidth) {
+  if (item.position.x + (item.scale)> document.body.clientWidth) {
     item.velocity.x *= -1;
     item.position.x = document.body.clientWidth;
   }
 
-  if (item.position.x < 0) {
+  if (item.position.x - (item.scale) < 0) {
     item.velocity.x *= -1;
     item.position.x = 0;
   }
 
-  if (item.position.y > document.body.clientHeight) {
+  if (item.position.y + (item.scale) > document.body.clientHeight) {
     item.velocity.y *= -1;
     item.position.y = document.body.clientHeight;
   }
 
-  if (item.position.y < 0) {
+  if (item.position.y - (item.scale) < 0) {
     item.velocity.y *= -1;
     item.position.y = 0;
   }
