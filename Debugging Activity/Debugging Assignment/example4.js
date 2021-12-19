@@ -5,6 +5,7 @@
  * TODO: The program has an error message in the console. You should read the message and debug accordingly.
  */
 
+checkPoint4();
 function checkPoint4() {
     // TODO: Remove the bugs from the code below.
     let password = ""; 
