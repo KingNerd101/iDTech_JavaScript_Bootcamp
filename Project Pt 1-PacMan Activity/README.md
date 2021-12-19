@@ -1,2 +1,4 @@
 # Project Pt 1 - PacMan Activity
-I checked if I need to go one way or the other by based on if the charecter's posistion and length hit the either edge of the webpage.
+
+# Firstly, I made the had added the setinterval to act as somewhat of a update loop in other coding languages.
+# After that, I simply added the width of the pacman sprite and the posistion of the sprite itself, and compared it to the boundaries of the browser to detirmine if the pacman needs to change it's direction.

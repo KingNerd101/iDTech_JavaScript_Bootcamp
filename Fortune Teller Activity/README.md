@@ -1,3 +1,2 @@
 # Fortune Teller Activity
-For this assignment I literally just made a function that compares a let varible to different numbers, and returning a string
-varible based on how high or low the number is.
+# For this assignment I made 4 comparison if statements in decending order which will check if the numer is bigger than the given values by the assignment makers, and return the apporpriate value.
